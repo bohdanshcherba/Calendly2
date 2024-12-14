@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Calendly2",
+    "name": "Chronicle365",
     "slug": "Calendly2",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,6 +16,8 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.lviv.chronicle365",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -23,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "aff7450f-1523-4662-b834-41d8e70fb205"
+      }
+    },
+    "owner": "qwe123"
   }
 }
